@@ -1,4 +1,4 @@
-package QuanLyBenhNhan;
+package QuanLyBenhNhan.QuanLyBenhNhan;
 
 public interface IBenhNhan
 {

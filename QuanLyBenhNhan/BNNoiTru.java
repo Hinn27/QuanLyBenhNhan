@@ -1,4 +1,4 @@
-package QuanLyBenhNhan;
+package QuanLyBenhNhan.QuanLyBenhNhan;
 
 public abstract class BNNoiTru
 		extends BenhNhan {
@@ -22,7 +22,7 @@ public abstract class BNNoiTru
 	public double getPhiNgay() {
 		return this.phiNgay;
 	}
-`
+
 	public void setPhiNgay() {
 		this.phiNgay = phiNgay;
 	}
