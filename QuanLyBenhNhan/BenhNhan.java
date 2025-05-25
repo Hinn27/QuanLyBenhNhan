@@ -4,7 +4,7 @@ public abstract class BenhNhan
 		implements IBenhNhan {
 	public String ten;
 	private String ma;
-	public double tienThuoc;
+	private double tienThuoc;
 
 	public BenhNhan(String ten, String ma, double tienThuoc) {
 		this.ten = ten;

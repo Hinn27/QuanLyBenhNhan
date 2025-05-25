@@ -28,7 +28,7 @@ public abstract class BNNgoaiTru
 
 	@Override
 	public double vienPhi() {
-		return phiKham + phiXetNghiem + tienThuoc;
+		return phiKham + phiXetNghiem + getTienThuoc();
 	}
 
 	@Override

@@ -34,7 +34,7 @@ public abstract class BNNoiTru
 
 	@Override
 	public double vienPhi() {
-		return tienThuoc * soNgayNamVien + phiNgay * soNgayNamVien + phuPhi();
+		return getTienThuoc() * soNgayNamVien + phiNgay * soNgayNamVien + phuPhi();
 	}
 
 	@Override
