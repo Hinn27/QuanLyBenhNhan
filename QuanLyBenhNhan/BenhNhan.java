@@ -2,7 +2,7 @@ package QuanLyBenhNhan.QuanLyBenhNhan;
 
 public abstract class BenhNhan
 		implements IBenhNhan {
-	public String ten;
+	private String ten;
 	private String ma;
 	private double tienThuoc;
 
