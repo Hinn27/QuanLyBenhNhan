@@ -1,6 +1,6 @@
 package QuanLyBenhNhan.QuanLyBenhNhan;
 
-public abstract class BNNoiTru
+public class BNNoiTru
 		extends BenhNhan {
 	private int soNgayNamVien;
 	private double phiNgay;
