@@ -1,4 +1,4 @@
-package QuanLyBenhNhan.QuanLyBenhNhan;
+package QLBN.QuanLyBenhNhan;
 
 public abstract class BenhNhan
 		implements IBenhNhan {
@@ -6,16 +6,16 @@ public abstract class BenhNhan
 	private String ma;
 	private double tienThuoc;
 
-	public BenhNhan(String ten, String ma, double tienThuoc) {
-		this.ten = ten;
-		this.ma = ma;
-		this.tienThuoc = tienThuoc;
-	}
-
 	public BenhNhan() {
 		this.ten = "";
 		this.ma = "";
 		this.tienThuoc = 0.0;
+	}
+
+	public BenhNhan(String ten, String ma, double tienThuoc) {
+		this.ten = ten;
+		this.ma = ma;
+		this.tienThuoc = tienThuoc;
 	}
 
 	public String getTen() {
