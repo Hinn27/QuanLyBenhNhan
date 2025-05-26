@@ -23,7 +23,7 @@ public class BNNoiTru
 		return this.phiNgay;
 	}
 
-	public void setPhiNgay() {
+	public void setPhiNgay(double phiNgay) {
 		this.phiNgay = phiNgay;
 	}
 
